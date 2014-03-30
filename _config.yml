@@ -1,4 +1,4 @@
 markdown: redcarpet
 name: Reactive Cocoa Design Patterns
-permalink: /rcdp/:title.html
+permalink: /:title.html
 baseurl: /rcdp
