@@ -62,6 +62,6 @@ It's a very important feature of any piece of software - to be easily decoupled.
 No matter whether you practice TDD, or simply cover your code with integrational tests, having code covered is a must these days. Apparently, ViewModels are very convenient pattern to cover with tests, since it has strongly formalized inputs and outputs. Tests have straightforward pattern: set arbitrary inputs of your choice and check outputs for expected values.
 
 
-ViewModels, by having use of FRP, particular RectiveCocoa, make it clearer and more straightforward how to implement functionality needed. It doesn't mean you have to write less code — no, computers won't do your job. But it definitely makes it clearer. The clearer you understand what you need to do, the less mistakes you make. And that is pretty much the main advantage FRP and MVVM so damn good: it allows you to make less mistakes.
+ViewModels, by having use of FRP, particular RectiveCocoa, make it clearer and more straightforward how to implement functionality needed. It doesn't mean you have to write less code — no, computers won't do your job. But it definitely makes it clearer. The clearer you understand what you need to do, the less mistakes you make. And that is pretty much the main advantage FRP and why MVVM is so damn good: it allows you to make less mistakes.
 
 [MVVM]:http://en.wikipedia.org/wiki/Model_View_ViewModel
