@@ -2,6 +2,7 @@
 layout: post
 title: ViewModel
 categories: [post]
+author: octogavrix
 ---
 
 

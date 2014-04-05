@@ -7,7 +7,13 @@ layout: default
 
 {{ content }}
 
-
-
-
+{% assign share_title = site.name | append:": " | append: page.title %}	
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ share_title }}" data-count="vertical" data-via="{{ page.author }}">Tweet</a>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="{{ share_title }}" data-count="vertical">Vote on Hacker News</a>
+<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+<div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-title="{{ share_title }}"></div>
+<script type="text/javascript">reddit_title = "{{ share_title }}";</script>
+<script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script>
 
