@@ -29,10 +29,18 @@ h1.title {
 }
 
 h1 {
-  font-size: 150%; 
-  font-style: italic;}
+  font-size: 200%; 
+  font-style: italic;
+  margin-top: 2em;
+}
 
-h2, h3, h4, h5, h6 {
+h2 {
+  font-size: 150%; 
+  font-style: italic;
+  margin-top: 2em;
+}
+
+h3, h4, h5, h6 {
   font-size: 100%; 
   font-style: italic;
 }
@@ -85,6 +93,11 @@ a:visited { color: #a0a; }
   padding-right: 1em;
   line-height: 1.5em;
 }
+
+.post {
+  margin-bottom: 3em;
+}
+
 
 .header {
   text-align: justify;
@@ -149,6 +162,7 @@ a:visited { color: #a0a; }
   border: 0;
 }
 
+.twitter-share-button { width: 80px !important; }
 /*****************************************************************************/
 /*
 /* Posts
@@ -156,9 +170,9 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+.post div {
+  /*border: 1px solid #ddd;*/
+  background-color: #fff;
   padding: 0 .4em;
 }
 
@@ -170,9 +184,14 @@ div.highlight {
   margin-left: 1.35em;
 }
 
+.post .highlight code {
+  background-color: #fff;
+}
+
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f5f5f5;
+  border-radius: 2px;
   padding: 0 .2em;
 }
 
