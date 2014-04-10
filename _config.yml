@@ -1,4 +1,4 @@
 markdown: redcarpet
 name: ReactiveCocoa Design Patterns
 permalink: /:title.html
-baseurl: /rcdp
+baseurl: /

@@ -7,6 +7,6 @@ layout: default
 {% assign sorted_pages = site.categories['post'] | sort:"date" %}
 {% for post in sorted_pages  %}
 
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
+    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br/>
 
 {% endfor %}
