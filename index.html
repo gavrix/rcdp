@@ -2,13 +2,6 @@
 layout: default
 
 ---
-<script language="javascript">
-	// github doesn't support redirect on apex domain from projects pages,
-	// so I redirect manually.
-	if (document.URL.indexOf("github.io") != -1) {
-		window.location.href = "http://rcdp.io"	
-	}
-</script>
 
 <div style="margin-bottom: 3em;"> {{ site.categories['about'] | first | content }} </div>
 
