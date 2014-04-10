@@ -52,3 +52,4 @@ RACDisposable *disposable = [[RACScheduler mainThreadScheduler] afterDelay:5.0 s
 [disposable dispose]; // block scheduling cancelled, it won't be executed.
 
 ```
+Cocoa]:https://github.com/ReactiveCocoa/ReactiveCocoa
