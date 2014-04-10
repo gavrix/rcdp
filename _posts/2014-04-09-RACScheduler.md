@@ -49,7 +49,6 @@ RACDisposable *disposable = [[RACScheduler mainThreadScheduler] afterDelay:5.0 s
 }];
 
 //if you changed your mind
-
 [disposable dispose]; // block scheduling cancelled, it won't be executed.
 
 ```
