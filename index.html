@@ -6,8 +6,16 @@ layout: default
 <div style="margin-bottom: 3em;"> {{ site.categories['about'] | first | content }} </div>
 
 {% assign sorted_pages = site.categories['post'] | sort:"date" %}
-{% for post in sorted_pages  %}
-
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br/>
-
+{% for currrentag in site.tags %}
+	{% capture tagname %}{{ currrentag | first }}{% endcapture %}
+	<div class=post_group>
+		<h2>{{ tagname }}</h2>
+		<ul>
+		{% for post in sorted_pages  %}
+			{% if post.tags contains tagname %}
+	    		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		</ul>
+	</div>
 {% endfor %}

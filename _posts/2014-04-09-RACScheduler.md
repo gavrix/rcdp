@@ -3,6 +3,7 @@ layout: post
 title: RACScheduler
 category: post
 author: octogavrix
+tag: Framework
 ---
 
 Before digging into real world [ReactiveCocoa] examples and finally starting fulfilling blog with what it name says: design patterns, it's worth talking about ReactiveCocoa scheduling.
