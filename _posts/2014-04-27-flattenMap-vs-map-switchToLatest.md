@@ -6,7 +6,7 @@ author: octogavrix
 tag: Framework
 ---
 
-As readers with some [FRP] knowledges (specifically, knowledge of [Monad] concept) may already know that `-flattenMap:` is a central piece driving the whole signals chaining mechanism. However, based on my own experience with [ReactiveCocoa], I found that it's not that useful and eventually combination of `-map:` and `-switchToLatest` fits better most of the time. Let's take a closer look at what these operations are what is the difference.
+As readers with some [FRP] knowledges (specifically, knowledge of [Monad] concept) may already know that `-flattenMap:` is a central piece driving the whole signals chaining mechanism. However, based on my own experience with [ReactiveCocoa], I found that it's not that useful and eventually combination of `-map:` and `-switchToLatest` fits better most of the time. Let's take a closer look at what these operations are and what is the difference.
 
 ## `-flattenMap:`
 
